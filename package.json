@@ -1,0 +1,35 @@
+{
+  "name": "picker-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safarishi/picker-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safarishi/picker-component/issues"
+  },
+  "homepage": "https://github.com/safarishi/picker-component#readme",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "dependencies": {
+    "better-scroll": "^1.12.6",
+    "classnames": "^2.2.6",
+    "immer": "^1.6.0"
+  }
+}
